@@ -42,5 +42,9 @@ public class ButtonMenu : MonoBehaviour
       SceneManager.LoadScene(1);
       Debug.Log("Кнопка нажата");
       }
-    }   
+    }
+    public void Quit()
+    {
+      Application.Quit();
+    } 
 }
